@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		445598F7B09109B5444BF016 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		445598F7B09109B5444BF016 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5F75C60EF056E81D70B95EEB /* Pods-FlutterModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-FlutterModule_Example/Pods-FlutterModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FlutterModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A5D2A5154D1A49C658D7449 /* Pods-FlutterModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-FlutterModule_Tests/Pods-FlutterModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92A4AF613716DDFE06475FDF /* Pods_FlutterModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlutterModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B524E4AD1301590F2C3210F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C0A1F716C5507D8A373DFEA9 /* FlutterModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FlutterModule.podspec; path = ../FlutterModule.podspec; sourceTree = "<group>"; };
+		B524E4AD1301590F2C3210F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C0A1F716C5507D8A373DFEA9 /* FlutterModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FlutterModule.podspec; path = ../FlutterModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5CDDD5537B636D0EE97E3AC /* Pods-FlutterModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FlutterModule_Tests/Pods-FlutterModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9CECEFBC60A464632E641DE /* Pods-FlutterModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterModule_Example.release.xcconfig"; path = "Target Support Files/Pods-FlutterModule_Example/Pods-FlutterModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				E5CDDD5537B636D0EE97E3AC /* Pods-FlutterModule_Tests.debug.xcconfig */,
 				8A5D2A5154D1A49C658D7449 /* Pods-FlutterModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
