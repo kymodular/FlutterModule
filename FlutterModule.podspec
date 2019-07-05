@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlutterModule'
-  s.version          = '2'
+  s.version          = '3'
   s.summary          = 'A short description of FlutterModule.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/kyleboy/FlutterModule'
+  s.homepage         = 'https://github.com/kymodular/FlutterModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kyleboy' => 'iyinghui@163.com' }
-  s.source           = { :git => 'https://github.com/kyleboy/FlutterModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kymodular/FlutterModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
